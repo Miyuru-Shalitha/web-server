@@ -6,9 +6,6 @@
 #include <unistd.h>
 #include <string.h>
 
-typedef struct {
-} sockaddr_in;
-
 int main()
 {
     int server_socket = socket(AF_INET, SOCK_STREAM, 0);
